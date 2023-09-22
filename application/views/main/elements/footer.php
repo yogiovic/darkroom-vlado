@@ -7,31 +7,33 @@
 				<div class="col-lg-3">
 					<div class="colum md-mb50">
 						<div class="tit mb-20">
-							<h6>Address</h6>
+							<h6>Info</h6>
 						</div>
 						<div class="text">
-							<p>Germany — 785 15h Street, Office 478 Berlin, De 81566</p>
+							<p>TaTraja s.r.o</p>
+							<p><a href="https://tatraja.art"
+								  target="_blank"> https://tatraja.art</a></p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 offset-lg-1">
 					<div class="colum md-mb50">
 						<div class="tit mb-20">
-							<h6>Say Hello</h6>
+							<h6>Napíš nám</h6>
 						</div>
 						<div class="text">
-							<p class="mb-10">
-								<a href="#0">hello@design.com</a>
-							</p>
+<!--							<p class="mb-10">-->
+<!--								<a href="mailto:mail@darkroom.sk">mail@darkroom.sk</a>-->
+<!--							</p>-->
 							<h5 class="main-color underline">
-								<a href="#">+1 840 841 25 69</a>
+								<a href="mailto:mail@darkroom.sk">mail@darkroom.sk</a>
 							</h5>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-2 md-mb50">
+				<div class="col-lg-3 md-mb50">
 					<div class="tit mb-20">
-						<h6>Social</h6>
+						<h6>Sociálne siete</h6>
 					</div>
 					<ul class="rest social-text">
 						<li>
@@ -48,21 +50,21 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-3">
-					<div class="tit mb-20">
-						<h6>Newsletter</h6>
-					</div>
-					<div class="subscribe">
-						<form action="contact.php">
-							<div class="form-group rest">
-								<input type="email" placeholder="Type Your Email">
-								<button type="submit">
-									<i class="fas fa-arrow-right"></i>
-								</button>
-							</div>
-						</form>
-					</div>
-				</div>
+<!--				<div class="col-lg-3">-->
+<!--					<div class="tit mb-20">-->
+<!--						<h6>Newsletter</h6>-->
+<!--					</div>-->
+<!--					<div class="subscribe">-->
+<!--						<form action="contact.php">-->
+<!--							<div class="form-group rest">-->
+<!--								<input type="email" placeholder="Type Your Email">-->
+<!--								<button type="submit">-->
+<!--									<i class="fas fa-arrow-right"></i>-->
+<!--								</button>-->
+<!--							</div>-->
+<!--						</form>-->
+<!--					</div>-->
+<!--				</div>-->
 			</div>
 		</div>
 		<div class="sub-footer pt-40 pb-40 bord-thin-top ontop">
@@ -78,9 +80,9 @@
 					<div class="col-lg-8">
 						<div class="copyright d-flex">
 							<div class="ml-auto">
-								<p class="fz-13">© 2023 Geekfolio is Proudly Powered by <span class="underline"><a
-											href="https://themeforest.net/user/ui-themez"
-											target="_blank">Ui-ThemeZ</a></span></p>
+								<p class="fz-13">© 2023 Darkroom.sk <span class="underline">
+										<a href="https://tatraja.art"
+											target="_blank"> by TaTraja</a></span></p>
 							</div>
 						</div>
 					</div>
@@ -102,16 +104,16 @@
 
 
 <!-- jQuery -->
-<script src="asset/js/jquery-3.6.0.min.js"></script>
-<script src="asset/js/jquery-migrate-3.4.0.min.js"></script>
+<script src="<?=base_url()?>asset/js/jquery-3.6.0.min.js"></script>
+<script src="<?=base_url()?>asset/js/jquery-migrate-3.4.0.min.js"></script>
 
 <!-- plugins -->
-<script src="asset/js/plugins.js"></script>
+<script src="<?=base_url()?>asset/js/plugins.js"></script>
 
-<script src="asset/js/ScrollTrigger.min.js"></script>
+<script src="<?=base_url()?>asset/js/ScrollTrigger.min.js"></script>
 
 <!-- custom scripts -->
-<script src="asset/js/scripts.js"></script>
+<script src="<?=base_url()?>asset/js/scripts.js"></script>
 
 </body>
 

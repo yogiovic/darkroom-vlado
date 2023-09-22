@@ -25,27 +25,28 @@
 	<section class="blog-list-half section-padding sub-bg">
 		<div class="container">
 			<div class="row">
+				<?php foreach ($articles as $a){ ?>
 				<div class="col-lg-6">
 					<div class="item mb-50">
 						<div class="row">
 							<div class="col-md-6 img">
-								<img src="assets/imgs/blog/h1.jpg" alt="">
+								<img src="<?=base_url()?>asset/uploads/blog/<?=$a->img ?>" alt="">
 							</div>
 							<div class="col-md-6 main-bg cont valign">
 								<div class="full-width">
-									<span class="date fz-12 ls1 text-u opacity-7 mb-15">August 6, 2022</span>
+									<span class="date fz-12 ls1 text-u opacity-7 mb-15"><?= date('d.M.Y',strtotime($a->created_at))  ?></span>
 									<h5>
-										<a href="blog-details.html">Free advertising for your online business.</a>
+										<a href="<?=base_url()?>blog/<?=$a->seo ?>/<?=$a->id ?>"><?=$a->title ?></a>
 									</h5>
 									<div class="tags colorbg mt-15">
-										<a href="blog-list.html">Marketing</a>
-										<a href="blog-list.html">Design</a>
+										<a href="<?=base_url()?>blog/<?=$a->seo ?>/<?=$a->id ?>"><?=$a->category_name ?></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<?php }?>
 
 			</div>
 		</div>

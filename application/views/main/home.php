@@ -410,7 +410,7 @@
 
 		<!-- ==================== Start Services ==================== -->
 
-		<section class="serv-box section-padding ">
+		<section id="cennik" class="serv-box section-padding ">
 			<div class="container">
 				<div class="sec-leter-head mb-80">
 					<div class="d-flex align-items-center">
@@ -821,51 +821,32 @@
 			</div>
 
 			<div class="row">
+				<?php foreach ($articles as $a){ ?>
+
 				<div class="col-lg-6">
 					<div class="item md-mb80">
 						<div class="row rest">
 							<div class="col-md-6">
-								<div class="img">
-									<img src="asset/img/arch/blog/1.jpg" alt="">
+								<div class="img" >
+									<img style="bottom: 0!important;" src="<?=base_url()?>asset/uploads/blog/<?=$a->img ?>" alt="">
 								</div>
 							</div>
 							<div class="col-md-6 valign">
 								<div class="cont">
-									<span class="date fz-12 ls1 text-u opacity-7 mb-15">August 6, 2019</span>
+									<span class="date fz-12 ls1 text-u opacity-7 mb-15"><?= date('d.M.Y',strtotime($a->created_at))  ?></span>
 									<h5>
-										<a href="blog1.html">Taliansko, Miláno </a>
+										<a href="<?=base_url()?>blog/<?=$a->seo ?>/<?=$a->id ?>"><?=$a->title ?></a>
 									</h5>
 									<div class="tags colorbg mt-15">
-										<a href="blog-half-img.html">Cestovanie</a>
+										<a href="<?=base_url()?>blog/<?=$a->seo ?>/<?=$a->id ?>"><?=$a->category_name ?></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					<div class="item">
-						<div class="row rest">
-							<div class="col-md-6">
-								<div class="img">
-									<img src="asset/img/arch/blog/2.jpg" alt="">
-								</div>
-							</div>
-							<div class="col-md-6 valign">
-								<div class="cont">
-									<span class="date fz-12 ls1 text-u opacity-7 mb-15">Október 19, 2022</span>
-									<h5>
-										<a href="br/blog-details.html">Rave Documentaries</a>
-									</h5>
-									<div class="tags colorbg mt-15">
-										<a href="blog-half-img.html">Rave</a>
-										<a href="blog-half-img.html">Parties</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<?php }?>
+
 			</div>
 		</div>
 	</section>
