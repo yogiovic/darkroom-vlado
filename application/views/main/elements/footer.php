@@ -4,7 +4,7 @@
 	<div class="footer-container">
 		<div class="container pb-80 pt-80 ontop">
 			<div class="row">
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<div class="colum md-mb50">
 						<div class="tit mb-20">
 							<h6>Info</h6>
@@ -16,7 +16,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 offset-lg-1">
+				<div class="col-lg-4">
 					<div class="colum md-mb50">
 						<div class="tit mb-20">
 							<h6>Napíš nám</h6>
@@ -31,22 +31,22 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 md-mb50">
+				<div class="col-lg-4 md-mb50">
 					<div class="tit mb-20">
 						<h6>Sociálne siete</h6>
 					</div>
 					<ul class="rest social-text">
+<!--						<li>-->
+<!--							<a href="#0">Facebook</a>-->
+<!--						</li>-->
+<!--						<li>-->
+<!--							<a href="#0">Twitter</a>-->
+<!--						</li>-->
 						<li>
-							<a href="#0">Facebook</a>
+							<a href="www.linkedin.com/in/vladimir-shoots">LinkedIn</a>
 						</li>
 						<li>
-							<a href="#0">Twitter</a>
-						</li>
-						<li>
-							<a href="#0">LinkedIn</a>
-						</li>
-						<li>
-							<a href="#0">Instagram</a>
+							<a href="www.instagram.com/vladimir_shoots">Instagram</a>
 						</li>
 					</ul>
 				</div>
@@ -72,8 +72,8 @@
 				<div class="row">
 					<div class="col-lg-4">
 						<div class="logo">
-							<a href="#0">
-								<img src="asset/imgs/logo-dark.png" alt="">
+							<a href="http://tatraja.art">
+								<img src="asset/img/logo.png" alt="">
 							</a>
 						</div>
 					</div>

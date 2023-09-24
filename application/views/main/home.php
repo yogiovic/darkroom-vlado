@@ -66,12 +66,10 @@
 								<div class="col-lg-7">
 									<div class="caption mt-30">
 										<h5 class="main-colorbg inline">
-											<!--                                                <span>02</span>-->
+
 										</h5>
 										<h1>Koncerty</h1>
-										<!--                                            <p>We developed strong relationships with contractors and specialist-->
-										<!--                                                companies-->
-										<!--                                                offering discounted prices.</p>-->
+
 									</div>
 								</div>
 								<div class="col-lg-3 offset-lg-1 valign">
@@ -234,68 +232,6 @@
 
 
 
-
-
-
-
-		<!-- ==================== Start clients ==================== -->
-
-		<!--            <div class="clients-carso section-padding pt-0">-->
-		<!--                <div class="container">-->
-		<!--                    <div class="row justify-content-center">-->
-		<!--                        <div class="col-lg-11">-->
-		<!--                            <div class="swiper5" data-carousel="swiper" data-items="5" data-loop="true" data-space="40"-->
-		<!--                                data-speed="1000">-->
-		<!--                                <div id="content-carousel-container-unq-clients" class="swiper-container"-->
-		<!--                                    data-swiper="container">-->
-		<!--                                    <div class="swiper-wrapper">-->
-		<!--                                        <div class="swiper-slide">-->
-		<!--                                            <div class="item">-->
-		<!--                                                <div class="img icon-img-100">-->
-		<!--                                                    <img src="asset/imgs/brands/01.png" alt="">-->
-		<!--                                                </div>-->
-		<!--                                            </div>-->
-		<!--                                        </div>-->
-		<!--                                        <div class="swiper-slide">-->
-		<!--                                            <div class="item">-->
-		<!--                                                <div class="img icon-img-100">-->
-		<!--                                                    <img src="asset/imgs/brands/02.png" alt="">-->
-		<!--                                                </div>-->
-		<!--                                            </div>-->
-		<!--                                        </div>-->
-		<!--                                        <div class="swiper-slide">-->
-		<!--                                            <div class="item">-->
-		<!--                                                <div class="img icon-img-100">-->
-		<!--                                                    <img src="asset/imgs/brands/03.png" alt="">-->
-		<!--                                                </div>-->
-		<!--                                            </div>-->
-		<!--                                        </div>-->
-		<!--                                        <div class="swiper-slide">-->
-		<!--                                            <div class="item">-->
-		<!--                                                <div class="img icon-img-100">-->
-		<!--                                                    <img src="asset/imgs/brands/04.png" alt="">-->
-		<!--                                                </div>-->
-		<!--                                            </div>-->
-		<!--                                        </div>-->
-		<!--                                        <div class="swiper-slide">-->
-		<!--                                            <div class="item">-->
-		<!--                                                <div class="img icon-img-100">-->
-		<!--                                                    <img src="asset/imgs/brands/05.png" alt="">-->
-		<!--                                                </div>-->
-		<!--                                            </div>-->
-		<!--                                        </div>-->
-		<!--                                    </div>-->
-		<!--                                </div>-->
-		<!--                            </div>-->
-		<!--                        </div>-->
-		<!--                    </div>-->
-		<!--                </div>-->
-		<!--            </div>-->
-
-		<!-- ==================== End clients ==================== -->
-
-
-
 		<!-- ==================== Start Portfolio ==================== -->
 
 		<section class="portfolio sub-bg section-padding">
@@ -323,12 +259,12 @@
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
-											<h6 class="line-height-1">From our gallery</h6>
-											<p>Branding</p>
+											<h6 class="line-height-1">Amélie Siba, Beseda 2021</h6>
+
 										</div>
-										<div class="ml-auto">
-											<p class="fz-14">© 2023</p>
-										</div>
+<!--										<div class="ml-auto">-->
+<!--											<p class="fz-14">© 2023</p>-->
+<!--										</div>-->
 									</div>
 								</div>
 							</div>
@@ -339,16 +275,16 @@
 							<div class="row justify-content-center">
 								<div class="col-lg-8">
 									<div class="img">
-										<img src="asset/img/arch/works/1.jpg" alt="">
+										<img src="asset/img/arch/works/2.jpg" alt="">
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
-											<h6 class="line-height-1">From our gallery</h6>
-											<p>Branding</p>
+											<h6 class="line-height-1">Pentagramček, Colloseum 2018</h6>
+
 										</div>
-										<div class="ml-auto">
-											<p class="fz-14">© 2023</p>
-										</div>
+<!--										<div class="ml-auto">-->
+<!--											<p class="fz-14">© 2023</p>-->
+<!--										</div>-->
 									</div>
 								</div>
 							</div>
@@ -359,16 +295,16 @@
 							<div class="row justify-content-center">
 								<div class="col-lg-8">
 									<div class="img">
-										<img src="asset/img/arch/works/1.jpg" alt="">
+										<img src="asset/img/arch/works/3.jpg" alt="">
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
-											<h6 class="line-height-1">From our gallery</h6>
-											<p>Branding</p>
+											<h6 class="line-height-1">Boy Wonder, Tabačka 2021</h6>
+
 										</div>
-										<div class="ml-auto">
-											<p class="fz-14">© 2023</p>
-										</div>
+<!--										<div class="ml-auto">-->
+<!--											<p class="fz-14">© 2023</p>-->
+<!--										</div>-->
 									</div>
 								</div>
 							</div>
@@ -379,16 +315,16 @@
 							<div class="row justify-content-center">
 								<div class="col-lg-8">
 									<div class="img">
-										<img src="asset/img/arch/works/1.jpg" alt="">
+										<img src="asset/img/arch/works/4.jpg" alt="">
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
-											<h6 class="line-height-1">From our gallery</h6>
-											<p>Branding</p>
+											<h6 class="line-height-1">Arrayhost, Festival DISS 2022</h6>
+
 										</div>
-										<div class="ml-auto">
-											<p class="fz-14">© 2023</p>
-										</div>
+<!--										<div class="ml-auto">-->
+<!--											<p class="fz-14">© 2023</p>-->
+<!--										</div>-->
 									</div>
 								</div>
 							</div>
@@ -431,13 +367,13 @@
 							</div>
 							<h5 class="mb-20">Len Vyvolanie:</h5>
 							<p>
-								135/120mm ČB: 6€<br>
-								135/120mm Farebne: 8€</p>
+								135/120mm ČB: 5€<br>
+								135/120mm Farebne: 7€</p>
 							<br><br>
 							<h5 class="mb-20">Len Sken:</h5>
 							<p>
 								2400dpi JPEG: 10€<br>
-								2400dpi TIFF: 16€</p>
+								2400dpi TIFF: 12€</p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6">
@@ -447,8 +383,8 @@
 							</div>
 							<h5 class="mb-20">Pre náročných:</h5>
 							<p>
-								3600+dpi JPEG: 10€<br>
-								3600+dpi TIFF: 20€
+								3600+dpi JPEG: 12€<br>
+								3600+dpi TIFF: 18€
 								<br>
 								5600+dpi TIFF: 2€/políčko</p>
 							<br><br>
@@ -466,7 +402,7 @@
 							<h5 class="mb-20">COMBO:</h5>
 							<p>
 								Vyvolanie +sken:<br>
-								2400dpi<br>
+								3600dpi<br>
 								ČB/Far. JPEG: 14€<br>
 								TIFF: 20€</p>
 							<br><br>
@@ -496,139 +432,6 @@
 
 	</div>
 
-
-
-
-
-
-	<!-- ==================== Start about ==================== -->
-
-	<!--        <section class="intro-corp section-padding">-->
-	<!--            <div class="container">-->
-	<!--                <div class="row">-->
-	<!--                    <div class="col-lg-5 valign md-mb50">-->
-	<!--                        <div class="imgs mb-80">-->
-	<!--                            <div class="img1">-->
-	<!--                                <img src="asset/imgs/arch/intro/sq1.jpg" alt="">-->
-	<!--                            </div>-->
-	<!--                            <div class="img2">-->
-	<!--                                <img src="asset/imgs/arch/intro/sq2.jpg" alt="">-->
-	<!--                            </div>-->
-	<!--                        </div>-->
-	<!--                    </div>-->
-	<!--                    <div class="col-lg-6 offset-lg-1 valign">-->
-	<!--                        <div class="cont">-->
-	<!--                            <div class="text">-->
-	<!--                                <h3>We create with passion architecture design that has great impact.</h3>-->
-	<!--                            </div>-->
-	<!--                            <div class="accordion bord mt-40">-->
-
-	<!--                                <div class="item mb-15 wow fadeInUp" data-wow-delay=".1s">-->
-	<!--                                    <div class="title">-->
-	<!--                                        <h6 class="fz-18">Building the Future Cities</h6>-->
-	<!--                                        <span class="ico"></span>-->
-	<!--                                    </div>-->
-	<!--                                    <div class="accordion-info">-->
-	<!--                                        <p class="fz-14">Taken possession of my entire soul, like these sweet mornings-->
-	<!--                                            of spring which-->
-	<!--                                            i enjoy with my whole.</p>-->
-	<!--                                    </div>-->
-	<!--                                </div>-->
-
-	<!--                                <div class="item mb-15 wow fadeInUp" data-wow-delay=".3s">-->
-	<!--                                    <div class="title">-->
-	<!--                                        <h6 class="fz-18">Unique and Influential Design</h6>-->
-	<!--                                        <span class="ico"></span>-->
-	<!--                                    </div>-->
-	<!--                                    <div class="accordion-info">-->
-	<!--                                        <p class="fz-14">Taken possession of my entire soul, like these sweet mornings-->
-	<!--                                            of spring which-->
-	<!--                                            i enjoy with my whole.</p>-->
-	<!--                                    </div>-->
-	<!--                                </div>-->
-
-	<!--                                <div class="item wow fadeInUp" data-wow-delay=".5s">-->
-	<!--                                    <div class="title">-->
-	<!--                                        <h6 class="fz-18">Award-Winning Architecture</h6>-->
-	<!--                                        <span class="ico"></span>-->
-	<!--                                    </div>-->
-	<!--                                    <div class="accordion-info">-->
-	<!--                                        <p class="fz-14">Taken possession of my entire soul, like these sweet mornings-->
-	<!--                                            of spring which-->
-	<!--                                            i enjoy with my whole.</p>-->
-	<!--                                    </div>-->
-	<!--                                </div>-->
-
-	<!--                            </div>-->
-	<!--                        </div>-->
-	<!--                    </div>-->
-	<!--                </div>-->
-	<!--            </div>-->
-	<!--        </section>-->
-
-	<!-- ==================== End about ==================== -->
-
-
-
-	<!-- ==================== Start sec-img ==================== -->
-
-	<!--        <section class="sec-img section-padding bg-img" data-background="asset/imgs/arch/slid/2.jpg"-->
-	<!--            data-overlay-dark="5">-->
-	<!--            <div class="container">-->
-	<!--                <div class="row">-->
-	<!--                    <div class="col-lg-4">-->
-	<!--                        <div class="expr-box md-mb50">-->
-	<!--                            <h6 class="text-u fz-16 mb-40">Europe's Leading <br> Architectural</h6>-->
-	<!--                            <div>-->
-	<!--                                <p class="fz-14 fw-600 line-height-1 mb-15">Years <br> Experience</p>-->
-	<!--                                <h2 class="fz-80 line-height-1">25</h2>-->
-	<!--                            </div>-->
-	<!--                        </div>-->
-	<!--                    </div>-->
-	<!--                    <div class="col-lg-4 offset-lg-1">-->
-	<!--                        <div class="cont">-->
-	<!--                            <h3 class="text-u">Design With <span class="main-color">Community</span> <br> In Mind.</h3>-->
-	<!--                            <p>Through a unique combination of engineering, construction and design disciplines and-->
-	<!--                                expertise, Concor delivers world class infrastructure.</p>-->
-	<!--                        </div>-->
-	<!--                    </div>-->
-	<!--                </div>-->
-	<!--                <div class="row mt-100">-->
-	<!--                    <div class="col-lg-7 offset-lg-5">-->
-	<!--                        <div class="numbers">-->
-	<!--                            <div class="row">-->
-	<!--                                <div class="col-md-3 col-6">-->
-	<!--                                    <div class="item sm-mb50">-->
-	<!--                                        <h4 class="fz-40">450</h4>-->
-	<!--                                        <h6 class="sub-title ls2">Projects</h6>-->
-	<!--                                    </div>-->
-	<!--                                </div>-->
-	<!--                                <div class="col-md-3 col-6">-->
-	<!--                                    <div class="item sm-mb50">-->
-	<!--                                        <h4 class="fz-40">70</h4>-->
-	<!--                                        <h6 class="sub-title ls2">Clients</h6>-->
-	<!--                                    </div>-->
-	<!--                                </div>-->
-	<!--                                <div class="col-md-3 col-6">-->
-	<!--                                    <div class="item">-->
-	<!--                                        <h4 class="fz-40">20</h4>-->
-	<!--                                        <h6 class="sub-title ls2">Countries</h6>-->
-	<!--                                    </div>-->
-	<!--                                </div>-->
-	<!--                                <div class="col-md-3 col-6">-->
-	<!--                                    <div class="item">-->
-	<!--                                        <h4 class="fz-40">7</h4>-->
-	<!--                                        <h6 class="sub-title ls2">Awards</h6>-->
-	<!--                                    </div>-->
-	<!--                                </div>-->
-	<!--                            </div>-->
-	<!--                        </div>-->
-	<!--                    </div>-->
-	<!--                </div>-->
-	<!--            </div>-->
-	<!--        </section>-->
-
-	<!-- ==================== End sec-img ==================== -->
 
 
 
@@ -702,74 +505,7 @@
 											</div>
 										</div>
 									</div>
-									<!--                                        <div class="swiper-slide">-->
-									<!--                                            <div class="item">-->
-									<!--                                                <div class="row">-->
-									<!--                                                    <div class="col-md-4">-->
-									<!--                                                        <div class="author-info valign">-->
-									<!--                                                            <div class="full-width">-->
-									<!--                                                                <div class="img circle-120 m-auto mb-30">-->
-									<!--                                                                    <img src="asset/imgs/testim/3.jpg" alt=""-->
-									<!--                                                                        class="circle-img">-->
-									<!--                                                                </div>-->
-									<!--                                                                <div class="info">-->
-									<!--                                                                    <h6>Leonard Heiser</h6>-->
-									<!--                                                                    <p class="sub-title">Customer</p>-->
-									<!--                                                                </div>-->
-									<!--                                                                <div class="arrow main-bg"></div>-->
-									<!--                                                            </div>-->
-									<!--                                                        </div>-->
-									<!--                                                    </div>-->
-									<!--                                                    <div class="col-md-8">-->
-									<!--                                                        <div class="cont">-->
-									<!--                                                            <div class="mb-30 icon-img-80 opacity-1">-->
-									<!--                                                                <img src="asset/imgs/svg-asset/quote.png" alt="">-->
-									<!--                                                            </div>-->
-									<!--                                                            <h4 class="fw-300">I have been hiring people in this-->
-									<!--                                                                space for a number of years-->
-									<!--                                                                and I have never seen this level of-->
-									<!--                                                                professionalism. It really feels like you are-->
-									<!--                                                                working with a team that can get the job-->
-									<!--                                                                done.</h4>-->
-									<!--                                                        </div>-->
-									<!--                                                    </div>-->
-									<!--                                                </div>-->
-									<!--                                            </div>-->
-									<!--                                        </div>-->
-									<!--                                        <div class="swiper-slide">-->
-									<!--                                            <div class="item">-->
-									<!--                                                <div class="row">-->
-									<!--                                                    <div class="col-md-4">-->
-									<!--                                                        <div class="author-info valign">-->
-									<!--                                                            <div class="full-width">-->
-									<!--                                                                <div class="img circle-120 m-auto mb-30">-->
-									<!--                                                                    <img src="asset/imgs/testim/4.jpg" alt=""-->
-									<!--                                                                        class="circle-img">-->
-									<!--                                                                </div>-->
-									<!--                                                                <div class="info">-->
-									<!--                                                                    <h6>Leonard Heiser</h6>-->
-									<!--                                                                    <p class="sub-title">Customer</p>-->
-									<!--                                                                </div>-->
-									<!--                                                                <div class="arrow main-bg"></div>-->
-									<!--                                                            </div>-->
-									<!--                                                        </div>-->
-									<!--                                                    </div>-->
-									<!--                                                    <div class="col-md-8">-->
-									<!--                                                        <div class="cont">-->
-									<!--                                                            <div class="mb-30 icon-img-80 opacity-1">-->
-									<!--                                                                <img src="asset/imgs/svg-asset/quote.png" alt="">-->
-									<!--                                                            </div>-->
-									<!--                                                            <h4 class="fw-300">I have been hiring people in this-->
-									<!--                                                                space for a number of years-->
-									<!--                                                                and I have never seen this level of-->
-									<!--                                                                professionalism. It really feels like you are-->
-									<!--                                                                working with a team that can get the job-->
-									<!--                                                                done.</h4>-->
-									<!--                                                        </div>-->
-									<!--                                                    </div>-->
-									<!--                                                </div>-->
-									<!--                                            </div>-->
-									<!--                                        </div>-->
+
 								</div>
 							</div>
 						</div>

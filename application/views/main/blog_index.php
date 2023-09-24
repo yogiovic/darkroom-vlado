@@ -7,7 +7,7 @@
 			<div class="row">
 				<div class="col-lg-8">
 					<div class="caption">
-						<!--                            <h6 class="sub-title">Our Blog</h6>-->
+
 						<h1 class="fz-80">DARKBLOG</h1>
 
 					</div>

@@ -11,7 +11,7 @@
 							<a href="#0"><span>darkblog</span></a>
 
 						</div>
-						<h1 class="fz-55 mt-30"><?=$article->title ?></h1>
+						<h1 class="fz-55 mt-30"><?= $article->title ?></h1>
 					</div>
 					<div class="info d-flex mt-40 align-items-center">
 						<div class="left-info">
@@ -19,7 +19,8 @@
 								<div class="author-info">
 									<div class="d-flex align-items-center">
 										<a href="#0" class="circle-60">
-											<img src="<?=base_url()?>asset/img/blog/author1.jpg" alt="" class="circle-img">
+											<img src="<?= base_url() ?>asset/img/blog/author1.jpg" alt=""
+												 class="circle-img">
 										</a>
 										<a href="#0" class="ml-20">
 											<!--                                                <span class="opacity-7">Author</span>-->
@@ -30,7 +31,7 @@
 								<div class="date ml-50">
 									<a href="#0">
 										<span class="opacity-7">Uverejnené</span>
-										<h6 class="fz-16"><?= date('d.M.Y',strtotime($a->created_at))  ?></h6>
+										<h6 class="fz-16"><?= date('d.M.Y', strtotime($article->created_at)) ?></h6>
 									</a>
 								</div>
 							</div>
@@ -45,14 +46,16 @@
 				</div>
 			</div>
 		</div>
-		<div class="background bg-img parallaxie mt-80" data-background="asset/img/blog/b2.jpg"></div>
+		<div class="background bg-img parallaxie mt-80"
+			 data-background="<?= base_url() ?>asset/uploads/blog/<?= $article->img ?>"></div>
 	</header>
 
 	<!-- ==================== End Slider ==================== -->
 
 
-
 	<!-- ==================== Start Blog ==================== -->
+
+
 
 	<section class="blog section-padding pb-0">
 		<div class="container">
@@ -62,111 +65,17 @@
 						<div class="row justify-content-center">
 							<div class="col-lg-10">
 								<div class="text">
-									<div class="d-flex align-items-center">
-										<!--                                            <span class="fz-60 fw-600 main-color line-height-1 mr-10">A</span>-->
-										<p>Lorem ipsum dolor sit amet,
-											consectetur adipisicing elit.
-											Aliquid deserunt, dolores excepturi
-										</p>
-									</div>
-									<p>new report said earlier this week that Apple is working on a brand
-										new laptop.
-										Apple plans to release a 15-inch MacBook Air in 2023, a first for
-										the Air
-										series. A trusted Apple insider with a proven track record confirmed
-										that Apple
-										is working on the larger MacBook Air.</p>
-								</div>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-lg-10">
-								<div class="text">
-									<p>However, Apple might not include it in the Air series when it
-										launches it. As for
-										the notebook’s release date, the 15-inch MacBook isn’t coming soon.
-										It’ll get a
-										late 2023 release at best, according to the new claims.</p>
-								</div>
-								<div class="title mt-30">
-									<h5 class="fw-600">Centrum starovekého mesta</h5>
-								</div>
-								<div class="text mt-20">
-									<p>Lorem ipsum dolor sit amet,
-										consectetur adipisicing elit.
-										Aspernatur debitis magni,
-										non nulla optio ullam.
-										Delectus deserunt dicta doloremque,
-										illo incidunt, ipsum libero odit
-										quas qui quia, quos saepe voluptates.
-									</p>
+									<?=$article->long_content ?>
 								</div>
 							</div>
 						</div>
 					</div>
 
 
-					<div class="mb-50 mt-50">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="iner-img sm-mb30">
-									<img src="asset/img/blog/2.jpg" alt="">
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="iner-img">
-									<img src="asset/img/blog/3.jpg" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
 
-					<div class="row justify-content-center">
-						<div class="col-lg-10">
-							<!--                                <div class="title mb-10">-->
-							<!--                                    <h5 class="fw-600">Apple currently sells only one MacBook Air size.</h5>-->
-							<!--                                </div>-->
 
-							<div class="text mb-20">
-								<p>Lorem ipsum dolor sit amet,
-									consectetur adipisicing elit.
-									Accusantium alias amet, aut,
-									debitis dignissimos dolor,
-									earum facere facilis harum
-									maiores maxime mollitia
-									nisi nulla optio perspiciatis
-									repellendus sapiente soluta voluptatibus.</p>
-							</div>
 
-							<!--                                <div class="unorder-list mb-30">-->
-							<!--                                    <h6 class="mb-10">Ordered & Unordered Lists.</h6>-->
-							<!--                                    <ul class="rest">-->
-							<!--                                        <li>Yet this above sewed flirted opened ouch</li>-->
-							<!--                                        <li>Goldfinch realistic sporadic ingenuous</li>-->
-							<!--                                        <li>Abominable this abidin far successfully then like piquan</li>-->
-							<!--                                    </ul>-->
-							<!--                                </div>-->
 
-							<!--                                <div class="order-list mb-30">-->
-							<!--                                    <h6 class="mb-10">Ordered & Unordered Lists.</h6>-->
-							<!--                                    <ul class="rest">-->
-							<!--                                        <li><span>01 -</span> Yet this above sewed flirted opened ouch</li>-->
-							<!--                                        <li><span>02 -</span> Goldfinch realistic sporadic ingenuous</li>-->
-							<!--                                        <li><span>03 -</span> Abominable this abidin far successfully then like-->
-							<!--                                            piquan-->
-							<!--                                        </li>-->
-							<!--                                    </ul>-->
-							<!--                                </div>-->
-
-							<!--                                <div class="text">-->
-							<!--                                    <p>However, Apple might not include it in the Air series when it launches-->
-							<!--                                        it. As for-->
-							<!--                                        the notebook’s release date, the 15-inch MacBook isn’t coming soon.-->
-							<!--                                        It’ll get a-->
-							<!--                                        late 2023 release at best, according to the new claims.</p>-->
-							<!--                                </div>-->
-						</div>
-					</div>
 				</div>
 				<div class="info-area flex mt-20 pb-20">
 					<div>
@@ -175,8 +84,9 @@
 								<span>Tags :</span>
 							</div>
 							<div>
-								<a href="blog-classic.html">Cestovanie</a>
-								<a href="blog-classic.html">Kultura</a>
+<!--								<a href="blog-classic.html">Cestovanie</a>-->
+<!--								<a href="blog-classic.html">Kultura</a>-->
+								<p><?=$article->category_name ?></p>
 							</div>
 						</div>
 					</div>
