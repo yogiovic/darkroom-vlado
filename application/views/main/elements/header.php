@@ -17,7 +17,7 @@
 	<title>DarkRoom</title>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="<?=base_url()?>asset/img/logolight.png">
+	<link rel="shortcut icon" href="<?=base_url()?>assets/logo/logolight.png">
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
@@ -28,10 +28,10 @@
 		  rel="stylesheet">
 
 	<!-- Plugins -->
-	<link rel="stylesheet" href="<?=base_url()?>asset/css/plugins.css">
+	<link rel="stylesheet" href="<?=base_url()?>assets/css/plugins.css">
 
 	<!-- Core Style Css -->
-	<link rel="stylesheet" href="<?=base_url()?>asset/css/style.css">
+	<link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
 
 </head>
 
@@ -48,13 +48,14 @@
 
 	<div class="loader-wrap-heading">
 		<div class="load-text">
-			<span>L</span>
-			<span>o</span>
-			<span>a</span>
-			<span>d</span>
-			<span>i</span>
-			<span>n</span>
-			<span>g</span>
+			<span>D</span>
+			<span>A</span>
+			<span>R</span>
+			<span>K</span>
+			<span>R</span>
+			<span>O</span>
+			<span>O</span>
+			<span>M</span>
 		</div>
 	</div>
 </div>
@@ -84,7 +85,7 @@
 
 		<!-- Logo -->
 		<a class="logo icon-img-100" href="<?php echo base_url()?>">
-			<img src="<?=base_url()?>asset/img/logodark.png" alt="logo">
+			<img src="<?=base_url()?>assets/logo/logodark.png" alt="logo">
 		</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -95,26 +96,26 @@
 		<!-- navbar links -->
 		<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 			<ul class="navbar-nav">
+				
 				<li class="nav-item ">
 					<a class="nav-link "  href="<?=base_url()?>" role="button"
 					   aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Domov</span></a>
-
 				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?=base_url()?>blog" role="button"
+
+				<li class="nav-item">
+					<a class="nav-link" href="<?=base_url()?>shop"><span class="rolling-text">Shop</span></a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="<?=base_url()?>blog" role="button"
 					   aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Blog</span></a>
-					<!--                        <div class="dropdown-menu">-->
-					<!--                            <a class="dropdown-item" href="page-about.html">About</a>-->
-					<!--                            <a class="dropdown-item" href="page-services.html">Services</a>-->
-					<!--                            <a class="dropdown-item" href="page-team.html">Our Team</a>-->
-					<!--                            <a class="dropdown-item" href="page-contact.html">Contact Us</a>-->
-					<!--                        </div>-->
 				</li>
 
 				<li class="nav-item ">
-					<a class="nav-link "  href="<?=base_url()?>#cennik" role="button"
+					<a class="nav-link"  href="<?=base_url()?>#cennik" role="button"
 					   aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Cennik</span></a>
 				</li>
+				
 				<li class="nav-item">
 					<a class="nav-link" href="<?=base_url()?>kontakt"><span class="rolling-text">Kontakt</span></a>
 				</li>

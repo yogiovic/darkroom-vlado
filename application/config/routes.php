@@ -55,5 +55,7 @@ $route['blog/(:any)'] = 'welcome/blog/$1';
 $route['blog/(:any)/(:any)'] = 'welcome/blog/$1/$2';
 
 $route['kontakt'] = 'welcome/kontakt';
+$route['shop'] = 'welcome/shop';
+$route['detail/(:any)'] = 'welcome/detail/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

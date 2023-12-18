@@ -8,7 +8,7 @@
 		<div class="swiper-container parallax-slider">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
-					<div class="bg-img valign" data-background="asset/img/arch/slid/3.jpg" data-overlay-dark="5">
+					<div class="bg-img valign" data-background="assets/img/slid/3.jpg" data-overlay-dark="5">
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-7">
@@ -26,7 +26,7 @@
 								</div>
 								<div class="col-lg-3 offset-lg-1 valign">
 									<div class="ml-auto explore">
-										<a href="project-details1.html">
+										<a href="https://darkroom.sk">
 											<div class="circle-button">
 												<div class="rotate-circle fz-30 text-u">
 													<svg class="textcircle" viewBox="0 0 500 500">
@@ -60,7 +60,7 @@
 					</div>
 				</div>
 				<div class="swiper-slide">
-					<div class="bg-img valign" data-background="asset/img/arch/slid/2.jpg" data-overlay-dark="3">
+					<div class="bg-img valign" data-background="assets/img/slid/2.jpg" data-overlay-dark="3">
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-7">
@@ -108,7 +108,7 @@
 					</div>
 				</div>
 				<div class="swiper-slide">
-					<div class="bg-img valign" data-background="asset/img/arch/slid/1.jpg" data-overlay-dark="3">
+					<div class="bg-img valign" data-background="assets/img/slid/1.jpg" data-overlay-dark="3">
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-7">
@@ -209,11 +209,11 @@
 
 							<div class="stauts d-flex align-items-center mt-40">
 								<div>
-									<h4>233</h4>
+									<h4>236</h4>
 									<p>Vyvolaných filmov</p>
 								</div>
 								<div class="ml-auto">
-									<h4>60+</h4>
+									<h4>65+</h4>
 									<p>Hotových projektov</p>
 								</div>
 							</div>
@@ -255,7 +255,7 @@
 							<div class="row justify-content-center">
 								<div class="col-lg-8">
 									<div class="img">
-										<img src="asset/img/arch/works/1.jpg" alt="">
+										<img src="assets/img/works/1.jpg" alt="">
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
@@ -275,7 +275,7 @@
 							<div class="row justify-content-center">
 								<div class="col-lg-8">
 									<div class="img">
-										<img src="asset/img/arch/works/2.jpg" alt="">
+										<img src="assets/img/works/2.jpg" alt="">
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
@@ -295,11 +295,11 @@
 							<div class="row justify-content-center">
 								<div class="col-lg-8">
 									<div class="img">
-										<img src="asset/img/arch/works/3.jpg" alt="">
+										<img src="assets/img/works/3.jpg" alt="">
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
-											<h6 class="line-height-1">Boy Wonder, Tabačka 2021</h6>
+											<h6 class="line-height-1">ZIÚR, Festival DISS 2022</h6>
 
 										</div>
 <!--										<div class="ml-auto">-->
@@ -315,7 +315,7 @@
 							<div class="row justify-content-center">
 								<div class="col-lg-8">
 									<div class="img">
-										<img src="asset/img/arch/works/4.jpg" alt="">
+										<img src="assets/img/works/4.jpg" alt="">
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
@@ -564,7 +564,7 @@
 						<div class="row rest">
 							<div class="col-md-6">
 								<div class="img" >
-									<img style="bottom: 0!important;" src="<?=base_url()?>asset/uploads/blog/<?=$a->img ?>" alt="">
+									<img style="bottom: 0!important;" src="<?=base_url()?>assets/uploads/blog/<?=$a->img ?>" alt="">
 								</div>
 							</div>
 							<div class="col-md-6 valign">

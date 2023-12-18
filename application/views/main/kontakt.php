@@ -8,13 +8,12 @@
 				<div class="col-lg-7">
 					<div class="caption">
 						<h6 class="sub-title">Kontaktuj nás</h6>
-						<h1 class="fz-55">Vyvoláme tvoje <br> filmy!</h1>
+						<h3 class="main-color underline"><a href="mailto:mail@darkroom.sk">mail@darkroom.sk</a><br> <br> +421 948 656 455</h3>
 					</div>
 				</div>
 				<div class="col-lg-5 valign">
 					<div class="text">
-						<p>Darkroom v Košiciach</p>
-						<p>Sme startupové štúdio sídliace v Košiciach ktoré ponúka vyvolávanie filmov za prijateľné ceny.</p>
+						<p>Darkroom je startupové štúdio sídliace v Košiciach ktoré ponúka vyvolávanie filmov za prijateľné ceny. Našou existenciou vďačíme tímu TaTaraja S.R.O.</p>
 					</div>
 				</div>
 			</div>
@@ -28,7 +27,7 @@
 	<!-- ==================== Start Contact ==================== -->
 
 	<section class="contact-crev section-padding">
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-lg-5">
 					<div class="sec-lg-head mb-80">
@@ -50,7 +49,7 @@
 								<a href="#0">Instagram</a>
 							</li>
 						</ul>
-					</div>
+					</div>-->
 				</div>
 <!--				<div class="col-lg-6 offset-lg-1 valign">-->
 <!--					<div class="full-width">-->

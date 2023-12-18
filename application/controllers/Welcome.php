@@ -8,10 +8,14 @@ class Welcome extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->model('Article_model');
+		$this->load->model('Product_model');
+
+
 	}
 
 	public function index()
 	{
+
 		$articles = $this->Article_model->getAllArticles(2);
 
 		$data = array(
@@ -64,4 +68,83 @@ class Welcome extends CI_Controller
 		$this->load->view('main/kontakt', $data);
 		$this->load->view('main/elements/footer', $data);
 	}
+	
+	public function shop()
+	{
+		
+
+		$products = $this->Product_model->getAllProducts();
+
+		$data = array(
+			'products' => $products
+		);
+
+		$this->load->view('main/elements/header', $data);
+		$this->load->view('main/shop', $data);
+		$this->load->view('main/elements/footer', $data);
+	}
+
+	public function detail()
+	{
+		
+		$id = $this->uri->segment(2);
+		$product = $this->Product_model->getProduct($id);
+// 		echo '<pre>';
+// var_dump($product['img']);
+// echo '</pre>';
+//     	exit;
+		$data = array(
+			'product' => $product
+		);
+
+
+	
+
+
+    	// $img = $this->Product_model->getProductImage($id);
+    	// var_dump($img);
+    	// exit;
+
+    	// $data = array(
+    	// 	'product' => $product,
+    	// 	'img' => $img
+    	// );
+
+		$this->load->view('main/elements/header', $data);
+		$this->load->view('main/product-detail', $data);
+		$this->load->view('main/elements/footer', $data);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

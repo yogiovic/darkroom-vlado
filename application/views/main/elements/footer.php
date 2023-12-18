@@ -43,10 +43,10 @@
 <!--							<a href="#0">Twitter</a>-->
 <!--						</li>-->
 						<li>
-							<a href="www.linkedin.com/in/vladimir-shoots">LinkedIn</a>
+							<a href="https://www.linkedin.com/in/vladimir-rac">LinkedIn</a>
 						</li>
 						<li>
-							<a href="www.instagram.com/vladimir_shoots">Instagram</a>
+							<a href="https://www.instagram.com/vladimir_shoots">Instagram</a>
 						</li>
 					</ul>
 				</div>
@@ -73,7 +73,7 @@
 					<div class="col-lg-4">
 						<div class="logo">
 							<a href="http://tatraja.art">
-								<img src="asset/img/logo.png" alt="">
+								<img src="assets/logo/logo.png" alt="">
 							</a>
 						</div>
 					</div>
@@ -104,16 +104,16 @@
 
 
 <!-- jQuery -->
-<script src="<?=base_url()?>asset/js/jquery-3.6.0.min.js"></script>
-<script src="<?=base_url()?>asset/js/jquery-migrate-3.4.0.min.js"></script>
+<script src="<?=base_url()?>assets/js/jquery-3.6.0.min.js"></script>
+<script src="<?=base_url()?>assets/js/jquery-migrate-3.4.0.min.js"></script>
 
 <!-- plugins -->
-<script src="<?=base_url()?>asset/js/plugins.js"></script>
+<script src="<?=base_url()?>assets/js/plugins.js"></script>
 
-<script src="<?=base_url()?>asset/js/ScrollTrigger.min.js"></script>
+<script src="<?=base_url()?>assets/js/ScrollTrigger.min.js"></script>
 
 <!-- custom scripts -->
-<script src="<?=base_url()?>asset/js/scripts.js"></script>
+<script src="<?=base_url()?>assets/js/scripts.js"></script>
 
 </body>
 
