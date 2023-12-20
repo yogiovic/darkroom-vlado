@@ -1,7 +1,6 @@
-
-
 <div id="smooth-content">
 
+<<<<<<< Updated upstream
             <main class="main-bg pt-80">
 
 
@@ -182,3 +181,185 @@
 
 
             </main>
+=======
+	<main class="main-bg pt-80">
+
+
+		<!-- ==================== Start product ==================== -->
+
+		<section class="product-details section-padding">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-4">
+						<div class="img-preview">
+							<div class="gallery-top">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+
+										<div class="swiper-slide">
+											<div class="img">
+												<img
+													src="<?= base_url() ?>assets/products/<?php echo $product['img'] ?>"
+													alt="">
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="gallery-thumb mt-10">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 offset-lg-1">
+						<div class="product-info">
+							<div class="top-info">
+								<h5 class="main-color4">€ <?php echo $product['price'] ?></h5>
+								<div class="d-flex align-items-center">
+									<div>
+										<h4 class="line-height-1"><?php echo $product['title'] ?></h4>
+									</div>
+									<div class="ml-auto">
+										<div class="d-flex align-items-center">
+											<!-- <div>
+												<div class="rate fz-12 opacity-7">
+													<i class="fas fa-star"></i>
+													<i class="fas fa-star"></i>
+													<i class="fas fa-star"></i>
+													<i class="fas fa-star"></i>
+													<i class="far fa-star"></i>
+												</div>
+											</div> -->
+											<!-- <div class="ml-10">
+												<p class="fz-13">(1 Review)</p>
+											</div> -->
+										</div>
+									</div>
+								</div>
+								<div class="text mt-30">
+									<p><?php echo $product['short_info'] ?></p>
+								</div>
+								<div class="dot-list mt-30">
+									<ul class="rest">
+										<li class="mb-15">Jediný kus</li>
+										<li>Biely podklad</li>
+										<br>
+										<li>S podpisom a známkou originality</li>
+									</ul>
+								</div>
+							</div>
+							<div class="prod-order pt-30 pb-30 mt-50 bord-thin-top bord-thin-bottom">
+								<div class="d-flex align-items-center">
+									<div>
+
+									</div>
+
+									<?php if ($product['status'] == 1){?>
+										<div class="ml-auto">
+<!--											<a onclick="openModal()" href="#0" class="butn butn-md butn-bord">-->
+<!--												<span class="text-u fz-13">Kúpiť</span>-->
+<!--											</a>-->
+											<button type="button" class="butn butn-md butn-bord" data-toggle="modal" data-target="#exampleModal">
+												<span class="text-u fz-13">Kúpiť</span>
+											</button>
+
+										</div>
+
+									<?php } else { ?>
+										<div class="ml-auto">
+											<a disabled="disabled" class="butn butn-md butn-bord">
+												<span class="text-u fz-13">Predané</span>
+											</a>
+										</div>
+									<?php } ?>
+
+								</div>
+
+
+							</div>
+							<div class="mt-40">
+								<ul class="rest">
+									<li class="d-flex align-items-center mb-15">
+										<strong>No.: </strong>
+										<span class="ml-10"><?php echo $product['no'] ?></span>
+									</li>
+									<li class="d-flex align-items-center mb-15">
+										<strong>Kategória:</strong>
+										<span class="ml-10"><a href="">Printy</a></span>
+									</li>
+									<?php if ($product['status'] == 1){?>
+										<li class="d-flex align-items-center mb-15">
+											<strong>Stav: </strong>
+
+											<strong style="color: green">&nbsp;Dostupné</strong>
+										</li>
+									<?php } else { ?>
+										<li class="d-flex align-items-center mb-15">
+											<strong>Stav: </strong>
+
+											<strong style="color: red">&nbsp;Predané</strong>
+										</li>
+									<?php } ?>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center mt-100">
+					<div class="col-lg-11">
+						<div class="overview" id="tabs">
+							<ul class="rest tab-links mb-30">
+								<li class="item-link current" data-tab="tabs-1">
+									<h6>Špecifikácia</h6>
+								</li>
+							</ul>
+							<div class="tab-cont">
+								<div class="tab-content current" id="tabs-1">
+									<div class="item">
+										<div class="text">
+											<?php echo $product['long_content'] ?>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ==================== End product ==================== -->
+
+
+		<style>
+			.modal-open {
+				background: rgba(0, 0, 0, 0.4) !important;
+			}
+		</style>
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Záujem o <?php echo $product['title'] ?> -<?php echo $product['no'] ?></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						Ak máš záujem o tento produkt, napíš mail
+						<h5 class="main-color underline">
+							<a href="mailto:mail@darkroom.sk">mail@darkroom.sk</a>
+						</h5>
+						a napíš správu.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Zavrieť</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+>>>>>>> Stashed changes

@@ -10,9 +10,15 @@
 							<h6>Info</h6>
 						</div>
 						<div class="text">
+<<<<<<< Updated upstream
 							<p>TaTraja Team</p>
 							<p><a href="https://tatraja.art"
 								  target="_blank"> https://tatraja.art</a></p>
+=======
+							<p>Darkroom.sk</p>
+							<p><a href="https://darkroom.sk"
+								  target="_blank">https://darkroom.sk</a></p>
+>>>>>>> Stashed changes
 						</div>
 					</div>
 				</div>
@@ -73,7 +79,6 @@
 					<div class="col-lg-4">
 						<div class="logo">
 							<a href="http://tatraja.art">
-								<img src="assets/logo/logo.png" alt="">
 							</a>
 						</div>
 					</div>
@@ -105,7 +110,8 @@
 
 <!-- jQuery -->
 <script src="<?=base_url()?>assets/js/jquery-3.6.0.min.js"></script>
-<script src="<?=base_url()?>assets/js/jquery-migrate-3.4.0.min.js"></script>
+
+<!--<script src="--><?php //=base_url()?><!--assets/js/jquery-migrate-3.4.0.min.js"></script>-->
 
 <!-- plugins -->
 <script src="<?=base_url()?>assets/js/plugins.js"></script>
