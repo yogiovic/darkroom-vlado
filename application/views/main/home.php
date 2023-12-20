@@ -20,7 +20,7 @@
 										<p>Čierobiele<br>
 											Farebné<br>
 											35mm<br>
-											6x6
+											120mm
 										</p>
 									</div>
 								</div>
