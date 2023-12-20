@@ -13,7 +13,7 @@
 				</div>
 				<div class="col-lg-5 valign">
 					<div class="text">
-						<p>Darkroom je startupové štúdio sídliace v Košiciach ktoré ponúka vyvolávanie filmov za prijateľné ceny. Našou existenciou vďačíme tímu TaTaraja S.R.O.</p>
+						<p>Darkroom je startupové štúdio sídliace v Košiciach ktoré ponúka vyvolávanie filmov za prijateľné ceny. Našou existenciou vďačíme tímu TaTaraja.</p>
 					</div>
 				</div>
 			</div>

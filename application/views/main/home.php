@@ -259,7 +259,7 @@
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
-											<h6 class="line-height-1">Amélie Siba, Beseda 2021</h6>
+											<h6 class="line-height-1">Lost in the forest, 2019</h6>
 
 										</div>
 <!--										<div class="ml-auto">-->
@@ -279,7 +279,7 @@
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
-											<h6 class="line-height-1">Pentagramček, Colloseum 2018</h6>
+											<h6 class="line-height-1">Putan Club, Colloseum 2022</h6>
 
 										</div>
 <!--										<div class="ml-auto">-->
@@ -299,7 +299,7 @@
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
-											<h6 class="line-height-1">ZIÚR, Festival DISS 2022</h6>
+											<h6 class="line-height-1">Billy Barman, Skaly 2022</h6>
 
 										</div>
 <!--										<div class="ml-auto">-->
@@ -319,7 +319,7 @@
 									</div>
 									<div class="cont mt-30 d-flex">
 										<div>
-											<h6 class="line-height-1">Arrayhost, Festival DISS 2022</h6>
+											<h6 class="line-height-1">"Commix", FUGA 2021 </h6>
 
 										</div>
 <!--										<div class="ml-auto">-->

@@ -10,7 +10,7 @@
 							<h6>Info</h6>
 						</div>
 						<div class="text">
-							<p>TaTraja s.r.o</p>
+							<p>TaTraja Team</p>
 							<p><a href="https://tatraja.art"
 								  target="_blank"> https://tatraja.art</a></p>
 						</div>
