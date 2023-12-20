@@ -8,7 +8,7 @@
 				<div class="col-lg-7">
 					<div class="caption">
 						<h6 class="sub-title">Kontaktuj nás</h6>
-						<h3 class="main-color underline"><a href="mailto:mail@darkroom.sk">mail@darkroom.sk</a><br> <br> +421 948 656 455</h3>
+						<h3 class="main-color underline"><a href="mailto:mail@darkroom.sk">mail@darkroom.sk</a><br> <br> +421 949 048 780</h3>
 					</div>
 				</div>
 				<div class="col-lg-5 valign">

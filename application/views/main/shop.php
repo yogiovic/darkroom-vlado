@@ -10,7 +10,7 @@
                             <div class="col-12">
                                 <div class="caption">
                                     
-                                    <h2>Darkshop</h2>
+                                    <h2>DARKSHOP</h2>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                                 <div class="shop-products">
                                     <div class="top-side d-flex align-items-end mb-40">
                                         <div>
-                                            <h6 class="fz-16 line-height-1">Zobrazených 10 výsledkov</h6>
+<!--                                            <h6 class="fz-16 line-height-1">Zobrazených 10 výsledkov</h6>-->
                                         </div>
                                     </div>
                                      <div class="row">

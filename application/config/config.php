@@ -24,9 +24,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 if ($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == '') {
-  $config['base_url'] = 'http://localhost/darkroom-tento/';
+  $config['base_url'] = 'http://localhost/darkroom/';
 } else {
-  $config['base_url'] = 'http://192.168.0.108/darkroom-tento/';
+  $config['base_url'] = 'http://192.168.0.108/darkroom/';
 }
 //$config['base_url'] = 'https://darkroom.sk/';
 

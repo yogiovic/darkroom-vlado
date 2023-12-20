@@ -14,7 +14,7 @@
 	<meta name="author" content="">
 
 	<!-- Title  -->
-	<title>DarkRoom</title>
+	<title>DARKROOM</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="<?=base_url()?>assets/logo/logolight.png">

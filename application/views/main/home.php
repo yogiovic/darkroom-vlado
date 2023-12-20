@@ -209,7 +209,7 @@
 
 							<div class="stauts d-flex align-items-center mt-40">
 								<div>
-									<h4>236</h4>
+									<h4>242</h4>
 									<p>Vyvolaných filmov</p>
 								</div>
 								<div class="ml-auto">

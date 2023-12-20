@@ -132,8 +132,8 @@
                                     <div class="mt-40">
                                         <ul class="rest">
                                             <li class="d-flex align-items-center mb-15">
-                                                <strong>No. :</strong>
-                                                <span class="ml-10">63/99</span>
+                                                <strong>No. : </strong>
+                                                <span class="ml-10"><?php echo $product['no'] ?></span>
                                             </li>
                                             <li class="d-flex align-items-center mb-15">
                                                 <strong>Kategória :</strong>
@@ -167,17 +167,7 @@
                                         <div class="tab-content current" id="tabs-1">
                                             <div class="item">
                                                 <div class="text">
-                                                    <p class="mb-15">Percentage off promotions, discounts, or sale
-                                                        markdowns are most customarily based on our own opinion of the
-                                                        value of this product, which is not intended to reflect a former
-                                                        price at which this product has sold in the recent past.</p>
-                                                    <p>Class aptent taciti sociosqu ad litora torquent per conubia
-                                                        nostra, per inceptos himenaeos. Nam eget neque eu ipsum laoreet
-                                                        molestie nec vel nulla. Aenean iaculis, neque ultricies
-                                                        efficitur ultricies, risus sapien dapibus ante, ac venenatis
-                                                        nisi est nec sem. Vestibulum blandit tincidunt felis a cursus.
-                                                        Donec eu tortor vitae metus scelerisque sollicitudin ut congue
-                                                        est.</p>
+													<?php echo $product['long_content'] ?>
                                                 </div>
                                             </div>
                                         </div>

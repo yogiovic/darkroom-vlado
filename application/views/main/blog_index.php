@@ -8,7 +8,7 @@
 				<div class="col-lg-8">
 					<div class="caption">
 
-						<h1 class="fz-80">DARKBLOG</h1>
+						<h2>DARKBLOG</h2>
 
 					</div>
 				</div>
