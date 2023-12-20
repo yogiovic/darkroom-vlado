@@ -16,7 +16,7 @@
 										<h5 class="main-colorbg inline">
 											<!--                                                <span>01</span>-->
 										</h5>
-										<h1>Vyvolávanie</h1>
+										<h1>Vyvolávanie filmu</h1>
 										<p>Čierobiele<br>
 											Farebné<br>
 											35mm<br>
@@ -26,7 +26,7 @@
 								</div>
 								<div class="col-lg-3 offset-lg-1 valign">
 									<div class="ml-auto explore">
-										<a href="https://darkroom.sk">
+										<a href="<?= base_url() ?>#cennik">
 											<div class="circle-button">
 												<div class="rotate-circle fz-30 text-u">
 													<svg class="textcircle" viewBox="0 0 500 500">
@@ -197,11 +197,11 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-3 valign">
-						<div class="img1 to-up full-width md-mb50">
-							<img src="asset/imgs/arch/intro/1.jpg" alt="">
-						</div>
-					</div>
+<!--					<div class="col-lg-3 valign">-->
+<!--						<div class="img1 to-up full-width md-mb50">-->
+<!--							<img src="asset/imgs/arch/intro/1.jpg" alt="">-->
+<!--						</div>-->
+<!--					</div>-->
 					<div class="col-lg-5 valign">
 						<div class="cont full-width md-mb50">
 							<h3 class="mb-15">DARKROOM</h3>
@@ -221,7 +221,7 @@
 					</div>
 					<div class="col-lg-4">
 						<div class="img1">
-							<img src="asset/imgs/arch/intro/2.jpg" alt="">
+<!--							<img src="asset/imgs/arch/intro/2.jpg" alt="">-->
 						</div>
 					</div>
 				</div>
@@ -363,7 +363,6 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="serv-item md-mb50">
 							<div class="icon-img-60 mb-40">
-								<img src="asset/imgs/serv-icons/0.png" alt="">
 							</div>
 							<h5 class="mb-20">Len Vyvolanie:</h5>
 							<p>
@@ -379,7 +378,6 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="serv-item md-mb50">
 							<div class="icon-img-60 mb-40">
-								<img src="asset/imgs/serv-icons/1.png" alt="">
 							</div>
 							<h5 class="mb-20">Pre náročných:</h5>
 							<p>
@@ -397,7 +395,6 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="serv-item sm-mb50">
 							<div class="icon-img-60 mb-40">
-								<img src="asset/imgs/serv-icons/2.png" alt="">
 							</div>
 							<h5 class="mb-20">COMBO:</h5>
 							<p>
@@ -407,22 +404,9 @@
 								TIFF: 20€</p>
 							<br><br>
 
-<!--							<h5 class="mb-20">AKCIE na Tatraja (15%)</h5>-->
-<!--							<p>-->
-<!--								3600+dpi<br>-->
-<!--								JPEG: 12€ (pôvodná 15€)<br>-->
-<!--								TIFF: 20€ (pôvodná 25€)</p>-->
 						</div>
 					</div>
-					<!--                        <div class="col-lg-3 col-md-6">-->
-					<!--                            <div class="serv-item">-->
-					<!--                                <div class="icon-img-60 mb-40">-->
-					<!--                                    <img src="asset/imgs/serv-icons/2.png" alt="">-->
-					<!--                                </div>-->
-					<!--                                <h5 class="mb-20">Landscape</h5>-->
-					<!--                                <p>Creating a higher spacing and how people move through a unique.</p>-->
-					<!--                            </div>-->
-					<!--                        </div>-->
+
 				</div>
 			</div>
 		</section>

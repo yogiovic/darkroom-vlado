@@ -8,7 +8,9 @@
 	<!-- Metas -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<meta name="keywords" content="HTML5 Template Geekfolio Multi-Purpose themeforest">
 	<meta name="description" content="Geekfolio - Multi-Purpose HTML5 Template">
 	<meta name="author" content="">
@@ -32,6 +34,14 @@
 
 	<!-- Core Style Css -->
 	<link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
+	<!-- jQuery (vyžadované pre Bootstrap JavaScript) -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+	<!-- Popper.js (vyžadované pre niektoré komponenty, napr. tooltipy a popovery) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Bootstrap JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 
 </head>
 

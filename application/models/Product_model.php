@@ -1,19 +1,21 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Product_model extends CI_Model { 
+class Product_model extends CI_Model {
 
 
 
-	public function getAllProducts(){
+	public function getAllProducts($category_id = null){
 
 		$this->db->select('*');
 		$this->db->from('products');
-
+		if ($category_id != NULL ) {
+			$this->db->where('category_id',$category_id);
+		}
 		$query = $this->db->get();
 		return $query->result();
 
-	} 
+	}
 
 	public function getProduct($id){
 
@@ -22,12 +24,16 @@ class Product_model extends CI_Model {
 		$this->db->where('id',$id);
 
 		$query = $this->db->get();
-		
+
 		return $query->row_array();
-  
-		
+	}
+	public function getProductCategories(){
 
+		$this->db->select('*');
+		$this->db->from('product_categories');
+		$query = $this->db->get();
 
+		return $query->result_array();
 	}
 
 

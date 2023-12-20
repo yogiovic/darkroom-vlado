@@ -46,8 +46,9 @@
                                         </div>
                                         <div class="dot-list">
                                             <ul class="rest">
-                                                <li><a href="#0">Printy</a></li>
-                                                <li><a href="#0">Originály</a></li>
+												<?php foreach ($productCategories as $category){ ?>
+                                                <li><a href="<?=base_url()?>shop/<?=$category['category_seo'] ?>"><?=$category['category_name'] ?></a></li>
+												<?php }?>
                                             </ul>
                                         </div>
                                     </div>
@@ -96,6 +97,12 @@
                                                 <div class="cont">
                                                     <h6><?php echo $product->title?></h6>
                                                     <h5><?php echo $product->price?> &euro;</h5>
+													<?php if ($product->status == 1){?>
+															<h6 style="color: green"> Dostupné</h6>
+													<?php } else { ?>
+
+															<h6 style="color: red"> Predané</h6>
+													<?php } ?>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,13 +110,12 @@
 
                                        
                                     </div> 
-                                    <div class="pagination d-flex justify-content-center mt-30">
-                                        <ul class="rest">
-                                            <li class="active"><a href="#0">1</a></li>
-                                            <!-- <li><a href="#0">2</a></li>
-                                            <li><a href="#0"><i class="fas fa-chevron-right"></i></a></li> -->
-                                        </ul>
-                                    </div>
+<!--                                    <div class="pagination d-flex justify-content-center mt-30">-->
+<!--                                        <ul class="rest">-->
+<!--                                            <li class="active"><a href="#0">1</a></li>-->
+<!--                                            <li><a href="#0"><i class="fas fa-chevron-right"></i></a></li> -->
+<!--                                        </ul>-->
+<!--                                    </div>-->
                                 </div>
                             </div>
                         </div>

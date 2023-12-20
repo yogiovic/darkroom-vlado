@@ -23,12 +23,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-if ($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == '') {
-  $config['base_url'] = 'http://localhost/darkroom/';
-} else {
-  $config['base_url'] = 'http://192.168.0.108/darkroom/';
-}
+//if ($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == '') {
+//  $config['base_url'] = 'http://localhost/darkroom-tento/';
+//} else {
+//  $config['base_url'] = 'http://192.168.0.108/darkroom-tento/';
+//}
+
 //$config['base_url'] = 'https://darkroom.sk/';
+//$config['base_url'] = 'http://localhost/darkroom-git/';
+$config['base_url'] = 'http://192.168.2.2/darkroom-git/';
 
 /*
 |--------------------------------------------------------------------------
