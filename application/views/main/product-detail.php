@@ -32,7 +32,7 @@
                             <div class="col-lg-6 offset-lg-1">
                                 <div class="product-info">
                                     <div class="top-info">
-                                        <h5 class="main-color4">€ <?php echo $product['price'] ?></h5>
+                                        <h3 class="main-color4">€ <?php echo $product['price'] ?></h3>
                                         <div class="d-flex align-items-center">
                                             <div>
                                                 <h4 class="line-height-1"><?php echo $product['title'] ?></h4>
